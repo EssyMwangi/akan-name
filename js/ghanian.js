@@ -8,9 +8,11 @@ function akan(){
 
   var CC = parseInt(YY-1)/100+1;
   
+
   var dayOfTheWeek = parseInt (( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) %7;
   var dayOfTheWeek = Math.floor(dayOfTheWeek);
 
+  
   if (document.getElementById("gender").checked){
     var gender = "male";
   }
@@ -94,3 +96,4 @@ function akan(){
   }
 
 }
+
