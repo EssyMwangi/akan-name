@@ -16,7 +16,7 @@
 
 ---
 ### PROJECT SETUP INSTRUCTIONS
-The Akan Names Generator is run via a browser through this live link:
+The Akan Names Generator is run via a browser through this live link: https://essymwangi.github.io/akan-name/
 
 ---
 
