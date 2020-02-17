@@ -31,7 +31,7 @@ function akan(){
   if (DD>31){
     alert("INVALID DAY! PLEASE ENTER A VALID DAY.");
   }
-  else if (MM == 2 && DD>29){
+  else if (MM == 2 && year % 4!=0 && DD>28 || MM ==2 && year % 4==0 && DD>29){
     alert("INVALID DAY! PLEASE ENTER A VALID DAY!");
   }
   else if (MM == 4 && DD>30){
